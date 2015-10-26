@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.manyinone_applets"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" >
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.PrimeFinder"
+            android:label="Counter" >
+            <intent-filter>
+                <action android:name="com.example.manyinone_applets.PRIMEFINDER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.MyFacebook"
+            android:label="Counter" >
+            <intent-filter>
+                <action android:name="com.example.manyinone_applets.MYFACEBOOK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.RealMadrid"
+            android:label="Counter" >
+            <intent-filter>
+                <action android:name="com.example.manyinone_applets.REALMADRID" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.CALLLAP"
+            android:label="Counter" >
+            <intent-filter>
+                <action android:name="com.example.manyinone_applets.CALLLAP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.Barcelona"
+            android:label="Counter" >
+            <intent-filter>
+                <action android:name="com.example.manyinone_applets.BARCELONA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.Counter"
+            android:label="Counter" >
+            <intent-filter>
+                <action android:name="com.example.manyinone_applets.COUNTER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.Epl"
+            android:label="Counter" >
+            <intent-filter>
+                <action android:name="com.example.manyinone_applets.EPL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.Browser"
+            android:label="Counter" >
+            <intent-filter>
+                <action android:name="com.example.manyinone_applets.BROWSER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.FootballInfo"
+            android:label="Counter" >
+            <intent-filter>
+                <action android:name="com.example.manyinone_applets.FOOTBALLINFO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.Chelsea"
+            android:label="Counter" >
+            <intent-filter>
+                <action android:name="com.example.manyinone_applets.CHELSEA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.Stopwatch"
+            android:label="Counter" >
+            <intent-filter>
+                <action android:name="com.example.manyinone_applets.STOPWATCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.AllPlayers"
+            android:label="Counter" >
+            <intent-filter>
+                <action android:name="com.example.manyinone_applets.ALLPLAYERS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.Menu"
+            android:label="Menu" >
+            <intent-filter>
+                <action android:name="com.example.manyinone_applets.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.TextPlay"
+            android:label="TextPlay" >
+            <intent-filter>
+                <action android:name="com.example.manyinone_applets.TEXTPLAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.SetWallpaper"
+            android:label="Camera"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.manyinone_applets.SETWALLPAPER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.QuestionAnswer"
+            android:label="QuestionAnswer" >
+            <intent-filter>
+                <action android:name="com.example.manyinone_applets.QUESTIONANSWER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.OpenedClass"
+            android:label="QuestionAnswer" >
+            <intent-filter>
+                <action android:name="com.example.manyinone_applets.OPENEDCLASS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.Esp"
+            android:label="Football" >
+            <intent-filter>
+                <action android:name="com.example.manyinone_applets.ESP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.AboutUs"
+            android:label="About"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="com.example.manyinone_applets.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.Version"
+            android:label="Version"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="com.example.manyinone_applets.VERSION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.Liverpool"
+            android:label="Liverpool" >
+            <intent-filter>
+                <action android:name="com.example.manyinone_applets.LIVERPOOL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.manyinone_applets.ManchesterUtd"
+            android:label="Liverpool" >
+            <intent-filter>
+                <action android:name="com.example.manyinone_applets.MANCHESTERUTD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

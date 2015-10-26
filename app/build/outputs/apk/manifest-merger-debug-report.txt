@@ -1,0 +1,343 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+application
+ADDED from AndroidManifest.xml:15:5
+	android:label
+		ADDED from AndroidManifest.xml:18:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:16:9
+	android:icon
+		ADDED from AndroidManifest.xml:17:9
+	android:theme
+		ADDED from AndroidManifest.xml:19:9
+activity#com.google.ads.AdActivity
+ADDED from AndroidManifest.xml:20:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:22:13
+	android:name
+		ADDED from AndroidManifest.xml:21:13
+activity#com.example.manyinone_applets.PrimeFinder
+ADDED from AndroidManifest.xml:24:9
+	android:label
+		ADDED from AndroidManifest.xml:26:13
+	android:name
+		ADDED from AndroidManifest.xml:25:13
+intent-filter#android.intent.category.DEFAULT+com.example.manyinone_applets.PRIMEFINDER
+ADDED from AndroidManifest.xml:27:13
+action#com.example.manyinone_applets.PRIMEFINDER
+ADDED from AndroidManifest.xml:28:17
+	android:name
+		ADDED from AndroidManifest.xml:28:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:30:17
+	android:name
+		ADDED from AndroidManifest.xml:30:27
+activity#com.example.manyinone_applets.MyFacebook
+ADDED from AndroidManifest.xml:33:9
+	android:label
+		ADDED from AndroidManifest.xml:35:13
+	android:name
+		ADDED from AndroidManifest.xml:34:13
+intent-filter#android.intent.category.DEFAULT+com.example.manyinone_applets.MYFACEBOOK
+ADDED from AndroidManifest.xml:36:13
+action#com.example.manyinone_applets.MYFACEBOOK
+ADDED from AndroidManifest.xml:37:17
+	android:name
+		ADDED from AndroidManifest.xml:37:25
+activity#com.example.manyinone_applets.RealMadrid
+ADDED from AndroidManifest.xml:42:9
+	android:label
+		ADDED from AndroidManifest.xml:44:13
+	android:name
+		ADDED from AndroidManifest.xml:43:13
+intent-filter#android.intent.category.DEFAULT+com.example.manyinone_applets.REALMADRID
+ADDED from AndroidManifest.xml:45:13
+action#com.example.manyinone_applets.REALMADRID
+ADDED from AndroidManifest.xml:46:17
+	android:name
+		ADDED from AndroidManifest.xml:46:25
+activity#com.example.manyinone_applets.CALLLAP
+ADDED from AndroidManifest.xml:51:9
+	android:label
+		ADDED from AndroidManifest.xml:53:13
+	android:name
+		ADDED from AndroidManifest.xml:52:13
+intent-filter#android.intent.category.DEFAULT+com.example.manyinone_applets.CALLLAP
+ADDED from AndroidManifest.xml:54:13
+action#com.example.manyinone_applets.CALLLAP
+ADDED from AndroidManifest.xml:55:17
+	android:name
+		ADDED from AndroidManifest.xml:55:25
+activity#com.example.manyinone_applets.Barcelona
+ADDED from AndroidManifest.xml:60:9
+	android:label
+		ADDED from AndroidManifest.xml:62:13
+	android:name
+		ADDED from AndroidManifest.xml:61:13
+intent-filter#android.intent.category.DEFAULT+com.example.manyinone_applets.BARCELONA
+ADDED from AndroidManifest.xml:63:13
+action#com.example.manyinone_applets.BARCELONA
+ADDED from AndroidManifest.xml:64:17
+	android:name
+		ADDED from AndroidManifest.xml:64:25
+activity#com.example.manyinone_applets.Counter
+ADDED from AndroidManifest.xml:69:9
+	android:label
+		ADDED from AndroidManifest.xml:71:13
+	android:name
+		ADDED from AndroidManifest.xml:70:13
+intent-filter#android.intent.category.DEFAULT+com.example.manyinone_applets.COUNTER
+ADDED from AndroidManifest.xml:72:13
+action#com.example.manyinone_applets.COUNTER
+ADDED from AndroidManifest.xml:73:17
+	android:name
+		ADDED from AndroidManifest.xml:73:25
+activity#com.example.manyinone_applets.Epl
+ADDED from AndroidManifest.xml:78:9
+	android:label
+		ADDED from AndroidManifest.xml:80:13
+	android:name
+		ADDED from AndroidManifest.xml:79:13
+intent-filter#android.intent.category.DEFAULT+com.example.manyinone_applets.EPL
+ADDED from AndroidManifest.xml:81:13
+action#com.example.manyinone_applets.EPL
+ADDED from AndroidManifest.xml:82:17
+	android:name
+		ADDED from AndroidManifest.xml:82:25
+activity#com.example.manyinone_applets.Browser
+ADDED from AndroidManifest.xml:87:9
+	android:label
+		ADDED from AndroidManifest.xml:89:13
+	android:name
+		ADDED from AndroidManifest.xml:88:13
+intent-filter#android.intent.category.DEFAULT+com.example.manyinone_applets.BROWSER
+ADDED from AndroidManifest.xml:90:13
+action#com.example.manyinone_applets.BROWSER
+ADDED from AndroidManifest.xml:91:17
+	android:name
+		ADDED from AndroidManifest.xml:91:25
+activity#com.example.manyinone_applets.FootballInfo
+ADDED from AndroidManifest.xml:96:9
+	android:label
+		ADDED from AndroidManifest.xml:98:13
+	android:name
+		ADDED from AndroidManifest.xml:97:13
+intent-filter#android.intent.category.DEFAULT+com.example.manyinone_applets.FOOTBALLINFO
+ADDED from AndroidManifest.xml:99:13
+action#com.example.manyinone_applets.FOOTBALLINFO
+ADDED from AndroidManifest.xml:100:17
+	android:name
+		ADDED from AndroidManifest.xml:100:25
+activity#com.example.manyinone_applets.Chelsea
+ADDED from AndroidManifest.xml:105:9
+	android:label
+		ADDED from AndroidManifest.xml:107:13
+	android:name
+		ADDED from AndroidManifest.xml:106:13
+intent-filter#android.intent.category.DEFAULT+com.example.manyinone_applets.CHELSEA
+ADDED from AndroidManifest.xml:108:13
+action#com.example.manyinone_applets.CHELSEA
+ADDED from AndroidManifest.xml:109:17
+	android:name
+		ADDED from AndroidManifest.xml:109:25
+activity#com.example.manyinone_applets.Stopwatch
+ADDED from AndroidManifest.xml:114:9
+	android:label
+		ADDED from AndroidManifest.xml:116:13
+	android:name
+		ADDED from AndroidManifest.xml:115:13
+intent-filter#android.intent.category.DEFAULT+com.example.manyinone_applets.STOPWATCH
+ADDED from AndroidManifest.xml:117:13
+action#com.example.manyinone_applets.STOPWATCH
+ADDED from AndroidManifest.xml:118:17
+	android:name
+		ADDED from AndroidManifest.xml:118:25
+activity#com.example.manyinone_applets.AllPlayers
+ADDED from AndroidManifest.xml:123:9
+	android:label
+		ADDED from AndroidManifest.xml:125:13
+	android:name
+		ADDED from AndroidManifest.xml:124:13
+intent-filter#android.intent.category.DEFAULT+com.example.manyinone_applets.ALLPLAYERS
+ADDED from AndroidManifest.xml:126:13
+action#com.example.manyinone_applets.ALLPLAYERS
+ADDED from AndroidManifest.xml:127:17
+	android:name
+		ADDED from AndroidManifest.xml:127:25
+activity#com.example.manyinone_applets.Menu
+ADDED from AndroidManifest.xml:132:9
+	android:label
+		ADDED from AndroidManifest.xml:134:13
+	android:name
+		ADDED from AndroidManifest.xml:133:13
+intent-filter#android.intent.category.DEFAULT+com.example.manyinone_applets.MENU
+ADDED from AndroidManifest.xml:135:13
+action#com.example.manyinone_applets.MENU
+ADDED from AndroidManifest.xml:136:17
+	android:name
+		ADDED from AndroidManifest.xml:136:25
+activity#com.example.manyinone_applets.TextPlay
+ADDED from AndroidManifest.xml:141:9
+	android:label
+		ADDED from AndroidManifest.xml:143:13
+	android:name
+		ADDED from AndroidManifest.xml:142:13
+intent-filter#android.intent.category.DEFAULT+com.example.manyinone_applets.TEXTPLAY
+ADDED from AndroidManifest.xml:144:13
+action#com.example.manyinone_applets.TEXTPLAY
+ADDED from AndroidManifest.xml:145:17
+	android:name
+		ADDED from AndroidManifest.xml:145:25
+activity#com.example.manyinone_applets.Splash
+ADDED from AndroidManifest.xml:150:9
+	android:label
+		ADDED from AndroidManifest.xml:152:13
+	android:name
+		ADDED from AndroidManifest.xml:151:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:153:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:154:17
+	android:name
+		ADDED from AndroidManifest.xml:154:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:156:17
+	android:name
+		ADDED from AndroidManifest.xml:156:27
+activity#com.example.manyinone_applets.SetWallpaper
+ADDED from AndroidManifest.xml:159:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:162:13
+	android:label
+		ADDED from AndroidManifest.xml:161:13
+	android:name
+		ADDED from AndroidManifest.xml:160:13
+intent-filter#android.intent.category.DEFAULT+com.example.manyinone_applets.SETWALLPAPER
+ADDED from AndroidManifest.xml:163:13
+action#com.example.manyinone_applets.SETWALLPAPER
+ADDED from AndroidManifest.xml:164:17
+	android:name
+		ADDED from AndroidManifest.xml:164:25
+activity#com.example.manyinone_applets.QuestionAnswer
+ADDED from AndroidManifest.xml:169:9
+	android:label
+		ADDED from AndroidManifest.xml:171:13
+	android:name
+		ADDED from AndroidManifest.xml:170:13
+intent-filter#android.intent.category.DEFAULT+com.example.manyinone_applets.QUESTIONANSWER
+ADDED from AndroidManifest.xml:172:13
+action#com.example.manyinone_applets.QUESTIONANSWER
+ADDED from AndroidManifest.xml:173:17
+	android:name
+		ADDED from AndroidManifest.xml:173:25
+activity#com.example.manyinone_applets.OpenedClass
+ADDED from AndroidManifest.xml:178:9
+	android:label
+		ADDED from AndroidManifest.xml:180:13
+	android:name
+		ADDED from AndroidManifest.xml:179:13
+intent-filter#android.intent.category.DEFAULT+com.example.manyinone_applets.OPENEDCLASS
+ADDED from AndroidManifest.xml:181:13
+action#com.example.manyinone_applets.OPENEDCLASS
+ADDED from AndroidManifest.xml:182:17
+	android:name
+		ADDED from AndroidManifest.xml:182:25
+activity#com.example.manyinone_applets.Esp
+ADDED from AndroidManifest.xml:187:9
+	android:label
+		ADDED from AndroidManifest.xml:189:13
+	android:name
+		ADDED from AndroidManifest.xml:188:13
+intent-filter#android.intent.category.DEFAULT+com.example.manyinone_applets.ESP
+ADDED from AndroidManifest.xml:190:13
+action#com.example.manyinone_applets.ESP
+ADDED from AndroidManifest.xml:191:17
+	android:name
+		ADDED from AndroidManifest.xml:191:25
+activity#com.example.manyinone_applets.AboutUs
+ADDED from AndroidManifest.xml:196:9
+	android:label
+		ADDED from AndroidManifest.xml:198:13
+	android:theme
+		ADDED from AndroidManifest.xml:199:13
+	android:name
+		ADDED from AndroidManifest.xml:197:13
+intent-filter#android.intent.category.DEFAULT+com.example.manyinone_applets.ABOUT
+ADDED from AndroidManifest.xml:200:13
+action#com.example.manyinone_applets.ABOUT
+ADDED from AndroidManifest.xml:201:17
+	android:name
+		ADDED from AndroidManifest.xml:201:25
+activity#com.example.manyinone_applets.Version
+ADDED from AndroidManifest.xml:206:9
+	android:label
+		ADDED from AndroidManifest.xml:208:13
+	android:theme
+		ADDED from AndroidManifest.xml:209:13
+	android:name
+		ADDED from AndroidManifest.xml:207:13
+intent-filter#android.intent.category.DEFAULT+com.example.manyinone_applets.VERSION
+ADDED from AndroidManifest.xml:210:13
+action#com.example.manyinone_applets.VERSION
+ADDED from AndroidManifest.xml:211:17
+	android:name
+		ADDED from AndroidManifest.xml:211:25
+activity#com.example.manyinone_applets.Liverpool
+ADDED from AndroidManifest.xml:216:9
+	android:label
+		ADDED from AndroidManifest.xml:218:13
+	android:name
+		ADDED from AndroidManifest.xml:217:13
+intent-filter#android.intent.category.DEFAULT+com.example.manyinone_applets.LIVERPOOL
+ADDED from AndroidManifest.xml:219:13
+action#com.example.manyinone_applets.LIVERPOOL
+ADDED from AndroidManifest.xml:220:17
+	android:name
+		ADDED from AndroidManifest.xml:220:25
+activity#com.example.manyinone_applets.ManchesterUtd
+ADDED from AndroidManifest.xml:225:9
+	android:label
+		ADDED from AndroidManifest.xml:227:13
+	android:name
+		ADDED from AndroidManifest.xml:226:13
+intent-filter#android.intent.category.DEFAULT+com.example.manyinone_applets.MANCHESTERUTD
+ADDED from AndroidManifest.xml:228:13
+action#com.example.manyinone_applets.MANCHESTERUTD
+ADDED from AndroidManifest.xml:229:17
+	android:name
+		ADDED from AndroidManifest.xml:229:25

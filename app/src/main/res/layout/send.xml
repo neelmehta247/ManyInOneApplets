@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib.com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer this for yourself...            I am....."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/rgSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvS" >
+
+        <RadioButton
+            android:id="@+id/rbCrazy"
+            android:layout_width="130dp"
+            android:layout_height="49dp"
+            android:text="Crazy Person" />
+
+        <RadioButton
+            android:id="@+id/rbAwesome"
+            android:layout_width="130dp"
+            android:layout_height="49dp"
+            android:text="Awesome Person" />
+
+        <RadioButton
+            android:id="@+id/rbFantastic"
+            android:layout_width="130dp"
+            android:layout_height="49dp"
+            android:text="Fantastic Person" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rgSend"
+        android:text="Return" />
+
+    <TextView
+        android:id="@+id/tvSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/bReturn"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

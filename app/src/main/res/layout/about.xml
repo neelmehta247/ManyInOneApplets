@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is Neel Mehta. I wrote this AWESOME app. I am situated in Mumbai,India. This is my first app and so please excuse any mistakes and feel free to drop any suggestions for any new apps or just improvements in this app at my email neelmehta247@gmail.com. Hope you all enjoy this app."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib.com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="left"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/etText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Some Text (Try ABC its fun)" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/bText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etText"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Send The Text" />
+
+    <TextView
+        android:id="@+id/tvText2"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/bText"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Invalid"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/bMenuTP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="77dp"
+        android:text="Return To Menu" />
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvText2"
+        android:layout_marginTop="41dp"
+        android:gravity="center"
+        android:text="Password Mode On/Off"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ToggleButton
+        android:id="@+id/tbText"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvText"
+        android:text="ToggleButton" />
+
+</RelativeLayout><!-- From: file:/Users/neel/Documents/workspace/ManyInOne-Applets!/app/src/main/res/layout/text.xml -->
